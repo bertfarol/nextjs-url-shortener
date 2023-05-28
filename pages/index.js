@@ -13,18 +13,31 @@ export default function Home() {
         <meta name="keywords" content="URL, Shortener, Link, Shorten"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="mx-auto max-w-7xl py-[100px]">
-        <div className="text-center">
-          <h1 className="max-w-2xl mx-auto mb-6 font-black lg:text-7xl lg:leading-[5.6rem] text-gray-900">
-            Shorten Your <span className="text-[#EBAF26] ">Links</span> and
-            Simplify Sharing
-          </h1>
-          <p className="mb-8 text-2xl text-gray-700">
-            Transform Long URLs into Short and Memorable Links
-          </p>
+      <section className="mx-auto max-w-7xl md:py-28 px-4 md:px-6 py-20">
+        <div className="flex justify-between">
+          <div className="text-center sm:text-left">
+            <h1 className="max-w-2xl mb-4 font-semibold text-4xl md:text-6xl xl:text-7xl xl:leading-[5rem] text-gray-800">
+              Simplify Sharing with{" "}
+              <span className="text-[#EBAF26] ">Short Links</span>
+            </h1>
+            <p className="mb-12 text-xl text-gray-700">
+              Transform Long URLs into Short and Memorable Links
+            </p>
+            <a
+              href="#url-short"
+              className="bg-blue-600 text-white py-3 px-4 text-xl rounded-md duration-300 hover:bg-blue-600/80"
+            >
+              Try for free
+            </a>
+          </div>
+          <img
+            className="h-72 xl:h-96 hidden lg:block"
+            src="/undraw_2.svg"
+            alt=""
+          />
         </div>
-          <UrlShortener />
-      </div>
+      </section>
+      <UrlShortener />
     </main>
   );
 }

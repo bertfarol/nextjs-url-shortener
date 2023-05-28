@@ -25,8 +25,11 @@ export default function Header() {
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-500">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <a
+            href="#"
+            className=" text-blue-600 text-base font-bold"
+          >
+            Log in
           </a>
         </div>
       </nav>
