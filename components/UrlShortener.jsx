@@ -22,7 +22,10 @@ export default function UrlShortener() {
   };
 
   return (
-    <div id="url-short" className="bg-blue-950 py-6 lg:py-14 px-4">
+    <div
+      id="url-short"
+      className="relative z-10 bg-[url('/bg-short-1.svg')] bg-no-repeat bg-cover max-w-5xl px-4 py-6 mx-auto rounded-lg bg-blue-950 lg:py-14"
+    >
       <div className="max-w-3xl mx-auto ">
         <div className="flex">
           <input
