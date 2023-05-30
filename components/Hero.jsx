@@ -23,7 +23,7 @@ export default function Hero() {
           <Image
             width={560}
             height={382}
-            src="/undraw_2.svg"
+            src="./undraw_2.svg"
             alt="short link"
           />
         </div>
