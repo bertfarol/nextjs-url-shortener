@@ -43,7 +43,7 @@ export default function Footer() {
             <Image
               width={24}
               height={24}
-              src="/icon-facebook.svg"
+              src="./icon-facebook.svg"
               alt="facebook"
             />
           </li>
@@ -51,7 +51,7 @@ export default function Footer() {
             <Image
               width={24}
               height={24}
-              src="/icon-twitter.svg"
+              src="./icon-twitter.svg"
               alt="twitter"
             />
           </li>
@@ -59,7 +59,7 @@ export default function Footer() {
             <Image
               width={24}
               height={24}
-              src="/icon-pinterest.svg"
+              src="./icon-pinterest.svg"
               alt="pinterest"
             />
           </li>
@@ -67,7 +67,7 @@ export default function Footer() {
             <Image
               width={24}
               height={24}
-              src="/icon-instagram.svg"
+              src="./icon-instagram.svg"
               alt="instagram"
             />
           </li>
