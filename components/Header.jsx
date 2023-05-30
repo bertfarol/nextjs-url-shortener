@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="bg-white">
-      <nav className="flex items-center p-6 mx-auto max-w-7xl lg:px-8">
+      <nav className="flex items-center px-4 py-2.5 mx-auto lg:max-w-7xl lg:px-8 sm:max-w-lg md:max-w-3xl">
         <div className="flex mr-10">
           <Link href="/" className="-m-1.5 p-1.5 text-3xl font-black">
             <span className="text-blue-600">_</span>

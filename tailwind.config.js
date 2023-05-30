@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Fira Sans", "sans-serif"],
+        sans: ["Roboto", "sans-serif"],
       },
       gridTemplateColumns: {
         footer: "1fr repeat(2, auto)",
