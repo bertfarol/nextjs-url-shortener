@@ -11,7 +11,7 @@ export default function Features() {
     <div className="px-4 md:px-6 p-28 bg-[#dff0fd] mt-[-70px]">
       <h2 className={h2Style + " mt-8 text-center"}>Enhance Link Management</h2>
       <p className="max-w-md mx-auto mt-6 mb-24 text-lg text-center">
-        Discover the Benefits of our URL Shortening Service's Advanced
+        Discover the Benefits of our URL Shortening Service&apos;s Advanced
         Functionality
       </p>
       <div className="block max-w-5xl grid-cols-3 mx-auto lg:grid gap-x-7">

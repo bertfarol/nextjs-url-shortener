@@ -1,4 +1,5 @@
 import { primaryButtonStyle, h1Style } from "@/components/common/utils/style.guide";
+import Image from "next/image";
 
 
 export default function Hero() {
@@ -18,11 +19,14 @@ export default function Hero() {
             Get Started
           </a>
         </div>
-        <img
-          className="hidden duration-300 h-80 xl:h-96 lg:block"
-          src="/undraw_2.svg"
-          alt=""
-        />
+        <div className="relative hidden duration-300 h-80 xl:h-96 lg:block">
+          <Image
+            width={560}
+            height={382}
+            src="/undraw_2.svg"
+            alt="short link"
+          />
+        </div>
       </div>
     </section>
   );

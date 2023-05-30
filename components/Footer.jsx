@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -39,16 +40,36 @@ export default function Footer() {
         </div>
         <ul className="flex gap-x-5">
           <li>
-            <img src="/icon-facebook.svg" alt="facebook" />
+            <Image
+              width={24}
+              height={24}
+              src="/icon-facebook.svg"
+              alt="facebook"
+            />
           </li>
           <li>
-            <img src="/icon-twitter.svg" alt="twitter" />
+            <Image
+              width={24}
+              height={24}
+              src="/icon-twitter.svg"
+              alt="twitter"
+            />
           </li>
           <li>
-            <img src="/icon-pinterest.svg" alt="pinterest" />
+            <Image
+              width={24}
+              height={24}
+              src="/icon-pinterest.svg"
+              alt="pinterest"
+            />
           </li>
           <li>
-            <img src="/icon-instagram.svg" alt="instagram" />
+            <Image
+              width={24}
+              height={24}
+              src="/icon-instagram.svg"
+              alt="instagram"
+            />
           </li>
         </ul>
       </div>
