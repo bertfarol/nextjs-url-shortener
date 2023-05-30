@@ -26,7 +26,7 @@ export default function UrlShortener() {
   return (
     <div
       id="url-short"
-      className="sm:max-w-lg relative z-10 xl:bg-[url('/bg-short-1.svg')] bg-no-repeat bg-cover xl:max-w-5xl px-4 py-6 mx-auto sm:rounded-lg md:max-w-2xl bg-blue-950 md:p-10 lg:py-14"
+      className="sm:max-w-lg relative z-10 xl:bg-[url('./bg-short-1.svg')] bg-no-repeat bg-cover xl:max-w-5xl px-4 py-6 mx-auto sm:rounded-lg md:max-w-2xl bg-blue-950 md:p-10 lg:py-14"
     >
       <div className="max-w-3xl mx-auto ">
         <div className="flex flex-col md:flex-row">
